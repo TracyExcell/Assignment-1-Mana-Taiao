@@ -1,0 +1,406 @@
+
+
+/**************** NAVIAGATION BAR *********************/
+header {
+    position: relative;
+}
+
+.navigationBar {
+    display: none;
+}
+
+.navigationBar {
+    z-index: 1;
+    position: absolute;
+    top:0;
+    font-size: 2rem;
+}
+
+.navigationBar a {
+    color: white;
+}
+
+.navigationBar a:hover {
+    color: orange;
+}
+
+.navigationBar a:active {
+    color: greenyellow;
+}
+
+.dropdown {
+    z-index: 1;
+    position: absolute;
+    top:0;
+    right: 1rem;
+    font-size: 2rem; 
+}
+
+.dropdown-menu {
+   margin-right: 80px;
+}
+
+.dropdown-toggle {
+    background-color: #fff;
+    width: 50px;
+   
+}
+
+/**************** COVER  *********************/
+
+#coverName {
+z-index: 2;
+position: absolute;
+top: 30%;
+color: #fff;
+text-align: center;
+
+}
+
+#coverName h1 {
+	font-size: 6rem;
+}
+
+
+.parallaxCover { 
+    /* The image used */
+    background-image: url("lakeTeAnau.jpg");
+
+    /* Set a specific height */
+    height: 900px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**************** Introduction CONTAINER *********************/
+
+.italics {
+	font-style: italic;
+}
+
+.parallaxFamily { 
+    /* The image used */
+    background-image: url("BellaIsla.jpg");
+
+    /* Set a specific height */
+    height: 900px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallaxTreaty { 
+    /* The image used */
+    background-image: url("TreatyImage.jpg");
+
+    /* Set a specific height */
+    height: 900px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cvContainer {
+    background-color: #000;
+    color: #fff;
+}
+
+.headerContainer {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.tracyImage {
+    height: 100px;
+    width: 100px;
+}
+
+#aboutDiv {
+    padding: 1rem;
+}
+
+#IntroImages {
+	display: flex;
+	justify-content: space-between;	
+}
+
+.intro-image {
+	height: 200px;
+	width: 150px;
+	border: 4px solid #fff;
+	
+}
+
+.intro-image-2 {
+	height: 200px;
+	width: 300px;
+	border: 4px solid #fff;
+		
+}
+
+#Aromatawai {
+	margin-left: 130px;
+}
+
+#MaraeImage {
+	height: 300px;
+	width: 350px;
+	margin-top: 20px;
+	border: 4px solid #fff;
+}
+
+#JadeImage, #StewartImage {
+	height: 250px;
+	width: 400px;
+	margin-bottom: 30px;
+	border: 4px solid #fff;
+}
+
+#kereru {
+	margin: 0px 30px 30px 0;
+}
+
+#TaongaSpecies {
+	height: 400px;
+	width: 450px;
+	margin-bottom: 30px;
+	border: 4px solid #fff;
+}
+
+#TeRauArohaMarae, #iwiManagementPlan, #Jade, #StewartBull, #murihiku {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+#Mmap {
+	
+	padding-right:30px;
+	
+}
+
+#TAMI{
+	margin-bottom: 30px;
+}
+
+#TaongaSpeciesContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+
+#customaryMarineTitleMap  {
+	
+	height: 450px;
+	width: 350px;
+	margin: 30px;
+	border: 4px solid #fff;
+}
+
+
+iframe {
+	
+	width: 560;
+	height: 315;
+	border: 4px solid #fff;
+	margin-bottom: 40px;
+} 
+
+
+
+#ImageDoubtfulSound {
+	
+	margin: auto;
+	display: block;
+	border: 4px solid #fff;
+	margin-bottom: 30px;
+}
+
+image {
+	border: 4px solid #fff;
+}
+
+h1,h2,h3,h4 {
+	
+	margin: 20px;
+}
+
+
+/**************** CODING IMAGE CONTAINER *********************/
+  
+
+.parallaxTeAnau { 
+    /* The image used */
+    background-image: url("TeAnau.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxFiordland {
+	 /* The image used */
+    background-image: url("MapofFiordland.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.parallaxConnections {
+	 /* The image used */
+    background-image: url("MilfordTrack.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+/**************** Murihiku *********************/
+
+
+#AtlasImage {
+	height: 500px;
+	width: 850px;
+	border: 4px solid #fff;
+	margin-bottom: 30px;
+}
+
+#MapofLandLoss {
+	margin-bottom: 30px;
+}
+
+.StatutoryAcknowledgementContainer {
+	border:4px solid #fff;
+	padding: 20px;
+}
+
+
+#Projects {
+ text-align: center;
+ padding: 2rem;
+ border-bottom: 2px solid  #000;
+}
+
+.projectContainer {
+    padding: 2rem;
+   
+}
+
+.projectContainer a {
+    color: #587272;
+}
+
+.projectContainer a:hover {
+    color: #000;
+}
+
+.projectContainer h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.projectContainer h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.project-imgs {
+  height: 200px;
+  width: 270px;
+  display: block;
+  margin: 0 auto;
+}
+
+.project {
+    padding: 1rem;
+}
+
+.link-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.link-content a {
+    margin-right: 40px;
+}
+
+
+/**************** CONTACT CONTAINER *********************/
+#contactSection {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+   
+}
+
+#contactSection h1, #contactSection p{
+ text-align: center;
+}
+
+#linkedin {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/**************** FOOTER CONTAINER *********************/
+
+.arrow {
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+}
+
+/**************** Media Queries *********************/
+
+@media (min-width: 768px){
+    
+.navigationBar {
+    display: flex;
+    }
+    
+.dropdown {
+    display: none;
+    }
+    
+
+}

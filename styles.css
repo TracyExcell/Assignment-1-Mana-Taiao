@@ -1,0 +1,391 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background: #0f0f0a;
+}
+
+/* Link Styles */
+
+a {
+  color:  #ffeb99;
+}
+
+a:hover {
+  color: white;
+}
+
+a:focus {
+    color: orange;
+}
+
+/* Section Styles */
+
+.main-nav {
+  width: 100%;
+  background: rgba(45, 43, 48, 0.8);
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: center;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+header {
+  text-align: center;
+  background-color: black;
+  padding-top: 60px;
+  height: 100px;
+}
+
+#header-title1 {
+color: #FFFFFF;
+font-size: 4em;
+margin: 40px;
+}
+
+
+
+.tag {
+  color: black;
+  padding: 10px;
+  letter-spacing: 5px;
+}
+
+.tagline {
+  font-weight: 600;
+  padding: 20px;
+  text-transform: uppercase;
+  color:  #ffeb99;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px 10px 10px;
+  border-top: 4px solid  #FFFFFF;
+  clear: both;
+}
+
+.card:hover {
+  border-color: #ff9933;
+}
+
+
+.photo{
+  display: block;
+  width: 200px;
+  height: 0%;
+  margin: 0 auto;
+}
+
+.information{
+  width: 100%;
+  text-align: center;
+  /*display: inline-block;
+  position: absolute;*/
+}
+
+.heading{
+  font-size: 2em;
+  text-transform: uppercase;
+  color:  #ffeb99;
+  margin-top: 10px;
+}
+
+caption {
+    margin-bottom: 15px;
+
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+.survey {
+    display:block;
+    margin: auto;
+}
+
+
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+  background-color: rgba(45, 43, 48, 0.8);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+}
+
+button {
+    font-size: 1.25em;
+    border-radius: 6px;
+    outline: none;
+}
+
+textarea:focus {
+     background-color: #ffeb99;   
+}
+
+input[type=text]:focus,
+input[type=radio]:focus, 
+input[type=email]:focus {
+     background-color: #ffeb99; 
+    
+}
+
+
+#text, #email, #email2, #albums {
+    padding: 5px;
+    width: 70%;
+}
+
+#albums {
+    font-size: 1.25em;
+}
+
+#songText {
+    
+    height: 50px;
+    width: 100%;
+}
+
+.legend1 {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.legend2 {
+    margin-left: 50%;
+}
+
+/* Tour Page Styles */
+
+table {
+    background-color: rgba(45, 43, 48, 0.8);
+    margin-top: 20px;
+    font-size: 1em; 
+    width: 100%;
+    height: 100%;
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td, tr, th {
+    padding: 10px;
+    
+}
+            
+.tourHeading {
+ text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#tdheading{
+    display: inline;
+    font-size: 1.5em;
+   
+}
+
+.pick {
+  width: 40px;
+  height: 50px;
+  padding: 10px;
+  vertical-align: baseline;
+
+}
+            
+
+/* Footer styles */
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+
+
+
+a.twitter {
+  background-image: url(../img/twitter-32.png);
+}
+
+a.youtube {
+  background-image: url(../img/youtube-32.png);
+}
+
+a.spotify {
+  background-image: url(../img/spotify-32.png);
+}
+
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+
+/* tablet sized screen*/
+
+@media screen and (min-width: 768px) {
+   
+   
+.nav {
+  flex-direction: row;
+  
+}
+    
+.nav li {
+        font-size: 2em;
+    }
+    
+    
+ .photo {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+
+  .flex {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex;
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+
+  }
+
+  header {
+    min-height: 470px;
+  }
+    
+  
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+    justify-content: flex-start;
+   
+  }
+    .nav li {
+        font-size: 2em;
+        margin-right: 10px;
+    }
+
+    .name {
+        margin-left: -60px;
+    }
+    
+    
+  main {
+    padding-top: 20px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  .card{
+    margin: 40px auto;
+    padding: 20px 40px 40px;
+    width: 80%;
+    max-width: 1000px;
+  }
+
+  .photo{
+    width: 40%;
+    margin: 20px 30px;
+  }
+
+  .information{
+    text-align: left;
+  }
+    
+table {
+  padding: 20px;
+    }
+    
+.tourHeading {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-size: 1.5em;
+    }
+  
+          
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+}
